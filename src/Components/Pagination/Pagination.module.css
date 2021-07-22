@@ -1,0 +1,29 @@
+.wrapper {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageItem {
+    background: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.pageItem:nth-child(1n) {
+    margin: 0px 10px;
+}
+
+.active {
+    color: white;
+    background: transparent;
+    background: black;
+    border: 1px solid black;
+    border: none;
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 25px;
+}
