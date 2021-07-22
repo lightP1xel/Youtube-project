@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Pagination from '../Pagination/Pagination'
-import Card from './Card/Card'
+import Card from '../../Components/Cards/Card/Card'
 import style from './Cards.module.css'
 
 const Cards = () => {
