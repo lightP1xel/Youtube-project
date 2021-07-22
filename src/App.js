@@ -1,8 +1,9 @@
-import Cards from './components/Cards/Cards'
+import React from 'react'
+import Cards from './Components/Cards/Cards'
 import style from './App.module.css'
 
 
-function App() {
+const App = () => {
   return (
     <div className={style.App}>
       <Cards />
