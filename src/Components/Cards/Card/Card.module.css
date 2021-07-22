@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card {
+    max-width: 320px;
+    height: 300px;
+    width: 100%;
+    perspective: 1000px;
+    margin-top: 20px;
+  }
+  
+  .cardLogo {
+    width: 300px;
+  }
+  
+  .frontCard,
+  .backCard {
+    position: absolute;
+    transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  .backCard {
+    background-color: #bdbdbd;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .cardLink {
+    margin-top: 20px;
+  }
+  
+  .card:hover .frontCard {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .backCard {
+    transform: rotateY(360deg);
+  }
