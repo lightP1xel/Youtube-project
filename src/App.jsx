@@ -1,12 +1,13 @@
-import React from "react";
-import "./Styles.css";
+import Cards from './components/Cards/Cards'
+import style from './App.module.css'
 
-const App = () => {
-    return (
-        <div>
-            <h1>Hello world</h1>
-        </div>
-    );
-};
 
-export default App;
+function App() {
+  return (
+    <div className={style.App}>
+      <Cards />
+    </div>
+  )
+}
+
+export default App
